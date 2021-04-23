@@ -1,0 +1,21 @@
+{
+  "name": "package.josn",
+  "version": "1.0",
+  "description": "Gerador de pdf com node js ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": "https://github.com/luiscaputo/pdf-generator-ts.git",
+  "author": "Luís Afonso Caputo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.12.1",
+    "sucrase": "^3.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
